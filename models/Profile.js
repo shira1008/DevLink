@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const ProfileSchema = new mongoose.Schema({
   user: {
     //connect the id with the matching user id from User
+    //ref - establish a reference from one schema to another
     type: mongoose.Schema.Types.ObjectId,
     ref: 'user',
   },
