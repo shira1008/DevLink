@@ -6,10 +6,12 @@ const landing = () => {
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <h1 className='x-large'>Developer Connector</h1>
+          <h1 className='x-large'>Connect with Developers Worldwide</h1>
           <p className='lead'>
-            Create a developer profile/portfolio, share posts and get help from
-            other developers
+            Build your developer profile, share your projects, and connect with
+            other developers. Whether you're looking for collaboration,
+            mentorship, or just want to showcase your work, DevLink is the place
+            for you.
           </p>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
