@@ -9,10 +9,12 @@ const landing = () => {
           <h1 className='x-large'>Connect with Developers Worldwide</h1>
           <p className='lead'>
             Build your developer profile, share your projects, and connect with
-            other developers. Whether you're looking for collaboration,
-            mentorship, or just want to showcase your work, DevLink is the place
-            for you.
+            other developers.
+            <br /> Whether you're looking for collaboration, mentorship, or just
+            want to showcase your work,
+            <br /> DevLink is the place for you.
           </p>
+
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
               Sign Up
