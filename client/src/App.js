@@ -10,35 +10,40 @@ import Navbar from './components/layout/Navbar';
 import Landing from './components/layout/Landing';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
+//Redux
+import { Provider } from 'react-redux';
+import store from './store';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Outlet />}>
-          <Route index element={<Landing />} />
+    <Provider store={store}>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Outlet />}>
+            <Route index element={<Landing />} />
 
-          {/* Apply container class to /register and /login */}
-          <Route
-            path='/register'
-            element={
-              <section className='container'>
-                <Register />
-              </section>
-            }
-          />
-          <Route
-            path='/login'
-            element={
-              <section className='container'>
-                <Login />
-              </section>
-            }
-          />
-        </Route>
-      </Routes>
-    </Router>
+            {/* Apply container class to /register and /login */}
+            <Route
+              path='/register'
+              element={
+                <section className='container'>
+                  <Register />
+                </section>
+              }
+            />
+            <Route
+              path='/login'
+              element={
+                <section className='container'>
+                  <Login />
+                </section>
+              }
+            />
+          </Route>
+        </Routes>
+      </Router>
+    </Provider>
   );
 }
 
