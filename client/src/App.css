@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
+  --primary-color: #6cce9e;
   --dark-color: #0e0e0e;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -17,8 +17,8 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  background-color: #262626;
+  color: var(--light-color);
 }
 
 a {
@@ -36,11 +36,12 @@ img {
 
 /* Utilities */
 .container {
-  max-width: 1100px;
+  background-color: var(--dark-color);
+  max-width: 900px;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
-  margin-top: 6rem;
+  padding: 2rem 2rem;
+  margin-top: 10rem;
   margin-bottom: 3rem;
 }
 
@@ -137,6 +138,7 @@ img {
   margin-right: 0.5rem;
   transition: opacity 0.2s ease-in;
   outline: none;
+  border: 3px solid transparent;
 }
 
 .badge {
@@ -169,7 +171,7 @@ img {
 .badge-light,
 .alert-light {
   background: var(--light-color);
-  color: #333;
+  color: var(--dark-color);
 }
 
 .btn-dark,
@@ -209,6 +211,30 @@ img {
   opacity: 0.8;
 }
 
+.cute-btn {
+  overflow: hidden;
+  position: relative;
+}
+
+.cute-btn::after {
+  background: #fff;
+  content: '';
+  height: 155px;
+  left: -75px;
+  opacity: 0.2;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+
+.cute-btn:hover::after {
+  left: 120%;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
 .bg-light,
 .badge-light {
   border: #ccc solid 1px;
@@ -242,7 +268,7 @@ img {
 .form .form-text {
   display: block;
   margin-top: 0.3rem;
-  color: #888;
+  color: #c8c3c3;
 }
 
 .form input[type='text'],
@@ -256,6 +282,8 @@ img {
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
+  background-color: var(--dark-color) !important;
+  color: var(--light-color);
 }
 
 .form input[type='submit'],
@@ -308,8 +336,8 @@ button {
   z-index: 1;
   width: 100%;
   top: 0;
-  border-bottom: solid 1px var(--primary-color);
-  opacity: 0.9;
+
+  opacity: 0.8;
 }
 
 .navbar ul {

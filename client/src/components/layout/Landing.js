@@ -10,16 +10,16 @@ const landing = () => {
           <p className='lead'>
             Build your developer profile, share your projects, and connect with
             other developers.
-            <br /> Whether you're looking for collaboration, mentorship, or just
+            {/* <br /> Whether you're looking for collaboration, mentorship, or just
             want to showcase your work,
-            <br /> DevLink is the place for you.
+            <br /> DevLink is the place for you. */}
           </p>
 
           <div className='buttons'>
-            <Link to='/register' className='btn btn-primary'>
+            <Link to='/register' className='cute-btn btn btn-primary '>
               Sign Up
             </Link>
-            <Link to='/login' className='btn btn-light'>
+            <Link to='/login' className='cute-btn btn btn-light  '>
               Login
             </Link>
           </div>

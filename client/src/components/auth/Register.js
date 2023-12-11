@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { setAlert } from '../../actions/alert';
 import PropTypes from 'prop-types';
+import Alert from '../layout/Alert';
 
 const Register = ({ setAlert }) => {
   const [formData, setFormData] = useState({
@@ -28,6 +29,7 @@ const Register = ({ setAlert }) => {
 
   return (
     <>
+      <Alert />
       <h1 className='large text-primary'>Sign Up</h1>
       <p className='lead'>
         <i className='fas fa-user'></i> Create Your Account
@@ -79,7 +81,13 @@ const Register = ({ setAlert }) => {
             required
           />
         </div>
-        <input type='submit' className='btn btn-primary' value='Register' />
+        <button
+          type='submit'
+          className='btn btn-primary cute-btn '
+          value='Register'
+        >
+          Register
+        </button>
       </form>
       <p className='my-1'>
         Already have an account? <Link to='/Login'>Sign In</Link>

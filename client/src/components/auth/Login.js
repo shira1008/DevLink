@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Alert from '../layout/Alert';
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -19,6 +20,7 @@ const Login = () => {
 
   return (
     <>
+      <Alert />
       <h1 className='large text-primary'>Sign In</h1>
       <p className='lead'>
         <i className='fas fa-user'></i> Sign Into Your Account
@@ -46,7 +48,13 @@ const Login = () => {
           />
         </div>
 
-        <input type='submit' className='btn btn-primary' value='Login' />
+        <button
+          type='submit'
+          className='btn btn-primary cute-btn'
+          value='Login'
+        >
+          Login
+        </button>
       </form>
       <p className='my-1'>
         Dont have an account? <Link to='/register'>Sign Up</Link>
