@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import { getCurrentProfile } from '../../actions/profile';
 import Spinner from '../layout/spinner';
 import DashboardActions from './DashboardActions';
+import Experience from './Experience';
+import Education from './Education';
 import Alert from '../layout/Alert';
 
 const Dashboard = ({
@@ -30,9 +32,8 @@ const Dashboard = ({
         {profile !== null ? (
           <>
             <DashboardActions />
-            {/*
             <Experience experience={profile.experience} />
-            <Education education={profile.education} /> */}
+            <Education education={profile.education} />
 
             <div className='my-2'>
               <button className='btn btn-danger cute-btn'>

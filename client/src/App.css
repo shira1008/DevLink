@@ -316,6 +316,9 @@ button {
   color: #0077b5;
 }
 
+th {
+  color: var(--light-color);
+}
 .table th,
 .table td {
   padding: 1rem;
@@ -323,7 +326,7 @@ button {
 }
 
 .table th {
-  background: var(--light-color);
+  background: var(--dark-color);
 }
 
 /* Navbar */
