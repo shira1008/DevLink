@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { getCurrentProfile } from '../../actions/profile';
 import Spinner from '../layout/spinner';
+import Alert from '../layout/Alert';
 
 const Dashboard = ({
   getCurrentProfile,
@@ -19,6 +20,7 @@ const Dashboard = ({
     <Spinner />
   ) : (
     <>
+      <Alert />
       <section className='container'>
         <h1 className='large text-primary'>Dashboard</h1>
         <p className='lead'>

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { createProfile } from '../../actions/profile';
+import Alert from '../layout/Alert';
 
 const initialState = {
   company: '',
@@ -18,10 +20,12 @@ const initialState = {
   instagram: '',
 };
 
-const useCreateProfile = (props) => {
-  const [formData, setFormData] = useState(initialState);
+const UseCreateProfile = ({ createProfile }) => {
+  const navigate = useNavigate(); // Move inside the component function
 
+  const [formData, setFormData] = useState(initialState);
   const [displaySocialInputs, toggleSocialInputs] = useState(false);
+
   const {
     company,
     website,
@@ -40,14 +44,25 @@ const useCreateProfile = (props) => {
   const onChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
+  const onSubmit = (e) => {
+    e.preventDefault();
+    createProfile(formData, navigate); // Pass the navigate function
+  };
+
   return (
     <section className='container'>
-      <h1 className='large text-primary'></h1>
+      <Alert />
+      <h1 className='large text-primary'>
+        {createProfile ? 'Create Your Profile' : 'Edit Your Profile'}
+      </h1>
       <p className='lead'>
         <i className='fas fa-user' />
+        {createProfile
+          ? ` Let's get some information to make your profile`
+          : ' Add some changes to your profile'}
       </p>
-      <small>* = required field</small>
-      <form className='form'>
+      s<small>* = required field</small>
+      <form className='form' onSubmit={onSubmit}>
         <div className='form-group'>
           <select name='status' value={status} onChange={onChange}>
             <option>* Select Professional Status</option>
@@ -217,6 +232,8 @@ const useCreateProfile = (props) => {
   );
 };
 
-useCreateProfile.propTypes = {};
+UseCreateProfile.propTypes = {
+  createProfile: PropTypes.func.isRequired,
+};
 
-export default useCreateProfile;
+export default connect(null, { createProfile })(UseCreateProfile);
