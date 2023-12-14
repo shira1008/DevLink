@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { getCurrentProfile } from '../../actions/profile';
 import Spinner from '../layout/spinner';
+import DashboardActions from './DashboardActions';
 import Alert from '../layout/Alert';
 
 const Dashboard = ({
@@ -20,15 +21,16 @@ const Dashboard = ({
     <Spinner />
   ) : (
     <>
-      <Alert />
       <section className='container'>
+        <Alert />
         <h1 className='large text-primary'>Dashboard</h1>
         <p className='lead'>
           <i className='fas fa-user' /> Welcome {user && user.name}
         </p>
         {profile !== null ? (
           <>
-            {/* <DashboardActions />
+            <DashboardActions />
+            {/*
             <Experience experience={profile.experience} />
             <Education education={profile.education} /> */}
 

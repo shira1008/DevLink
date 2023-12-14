@@ -11,9 +11,11 @@ import Landing from './components/layout/Landing';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Alert from './components/layout/Alert';
+
 import Dashboard from './components/dashboard/Dashboard';
 import PrivateRoute from './components/routing/PrivateRoute';
 import createProfile from './components/profile-forms/createProfile';
+import EditProfile from './components/profile-forms/EditProfile';
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
@@ -70,6 +72,11 @@ function App() {
             <Route
               path='/create-profile'
               element={<PrivateRoute component={createProfile} />}
+            />
+
+            <Route
+              path='/edit-profile'
+              element={<PrivateRoute component={EditProfile} />}
             />
           </Route>
         </Routes>
