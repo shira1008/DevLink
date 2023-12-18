@@ -18,6 +18,8 @@ import createProfile from './components/profile-forms/createProfile';
 import EditProfile from './components/profile-forms/EditProfile';
 import AddExperience from './components/profile-forms/AddExperience';
 import AddEducation from './components/profile-forms/AddEducaiton';
+import Profiles from './components/profiles/Profiles';
+import Profile from './components/profile/Profile';
 
 // Redux
 import { Provider } from 'react-redux';
@@ -66,9 +68,18 @@ function App() {
                 </section>
               }
             />
+            <Route
+              path='/profiles'
+              element={
+                <section className='container'>
+                  <Profiles />
+                </section>
+              }
+            />
+            <Route path='/profile/:id' element={<Profile />} />
 
             <Route
-              path='dashboard'
+              path='/dashboard'
               element={<PrivateRoute component={Dashboard} />}
             />
 
