@@ -13,7 +13,7 @@ const Dashboard = ({
   getCurrentProfile,
   deleteAccount,
   auth: { user },
-  profile: { profile, loading }, // Corrected destructuring
+  profile: { profile, loading },
 }) => {
   useEffect(() => {
     getCurrentProfile();
