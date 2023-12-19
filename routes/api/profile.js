@@ -77,7 +77,13 @@ router.post(
     if (company) profileFields.company = company;
     if (website) profileFields.website = website;
     if (location) profileFields.location = location; // Add the 'location' field to the profileFields object
-    if (bio) profileFields.bio = bio; // Add the 'bio' field to the profileFields object
+    if (bio) {
+      profileFields.bio = bio;
+    } else {
+      // Handle empty bio (set to null or an empty string, depending on your preference)
+      profileFields.bio = null; // or profileFields.bio = '';
+    }
+    // Add the 'bio' field to the profileFields object
     if (status) profileFields.status = status;
     if (githubusername) profileFields.githubusername = githubusername;
     if (skills) {
