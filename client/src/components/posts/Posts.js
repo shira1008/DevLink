@@ -5,6 +5,7 @@ import Spinner from '../layout/spinner';
 import PostItem from './PostItem';
 import Alert from '../layout/Alert';
 import { getPost } from '../../actions/post';
+import PostForm from './PostForm';
 
 const Post = ({ getPost, post: { posts, loading } }) => {
   useEffect(() => {
@@ -22,7 +23,7 @@ const Post = ({ getPost, post: { posts, loading } }) => {
           <i className='fas fa-user'> </i> Welcome
         </p>
 
-        {/* posts form here */}
+        <PostForm />
 
         <div className='posts'>
           {posts.map((post) => (
