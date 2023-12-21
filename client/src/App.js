@@ -10,7 +10,6 @@ import Navbar from './components/layout/Navbar';
 import Landing from './components/layout/Landing';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-import Alert from './components/layout/Alert';
 
 import Dashboard from './components/dashboard/Dashboard';
 import PrivateRoute from './components/routing/PrivateRoute';
@@ -22,6 +21,9 @@ import Profiles from './components/profiles/Profiles';
 import Profile from './components/profile/Profile';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
+
+//not found
+import NotFound from './components/layout/NotFound';
 
 // Redux
 import { Provider } from 'react-redux';
@@ -78,6 +80,9 @@ function App() {
                 </section>
               }
             />
+
+            <Route path='*' element={<NotFound />} />
+
             <Route path='/profile/:id' element={<Profile />} />
 
             <Route
