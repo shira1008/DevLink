@@ -20,7 +20,7 @@ const Dashboard = ({
     console.log(user);
   }, [getCurrentProfile]);
 
-  return loading && profile === null ? (
+  return !loading && profile === null ? (
     <Spinner />
   ) : (
     <>
@@ -33,9 +33,10 @@ const Dashboard = ({
         {profile !== null ? (
           <>
             <DashboardActions />
-            <Experience experience={profile.experience} />
-            <Education education={profile.education} />
-
+            <div className='td-container'>
+              <Experience experience={profile.experience} />
+              <Education education={profile.education} />
+            </div>
             <div className='my-2'>
               <button
                 className='btn btn-danger cute-btn'

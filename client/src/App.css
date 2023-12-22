@@ -237,10 +237,10 @@ img {
   transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.bg-light,
+/* .bg-light,
 .badge-light {
   border: #ccc solid 1px;
-}
+} */
 
 .round-img {
   border-radius: 50%;
@@ -325,12 +325,17 @@ th {
 .table td {
   padding: 1rem;
   text-align: left;
+  width: 50px;
 }
 
 .table th {
-  background: var(--dark-color);
+  background: var(--dark-color-2);
 }
 
+.td-container {
+  display: flex;
+  flex-direction: column;
+}
 /* Navbar */
 .navbar {
   display: flex;
@@ -390,6 +395,10 @@ th {
   padding: 1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
+}
+
+.bg-profile {
+  background-color: var(--dark-color-2);
 }
 
 /* Profile Page */
