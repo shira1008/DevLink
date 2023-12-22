@@ -7,8 +7,8 @@ const PostForm = ({ addPost }) => {
   const [text, setText] = useState('');
   return (
     <div className='post-form'>
-      <div className='bg-primary p'>
-        <h3>Say Something...</h3>
+      <div className='p'>
+        <h3>Whats on Your mind</h3>
       </div>
       <form
         className='form my-1'

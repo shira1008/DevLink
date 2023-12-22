@@ -1,10 +1,11 @@
 /* Global Styles */
 :root {
   --primary-color: #6cce9e;
-  --dark-color: #0e0e0e;
+  --dark-color: #1b1a1a;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
+  --dark-color-2: #0e0e0e;
 }
 
 * {
@@ -178,7 +179,7 @@ img {
 .bg-dark,
 .badge-dark,
 .alert-dark {
-  background: var(--dark-color);
+  background: var(--dark-color-2);
   color: #fff;
 }
 
@@ -336,11 +337,9 @@ th {
   align-items: center;
   padding: 0.7rem 2rem;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   width: 100%;
   top: 0;
-
-  opacity: 0.8;
 }
 
 .navbar ul {
