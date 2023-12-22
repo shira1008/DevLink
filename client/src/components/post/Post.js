@@ -19,7 +19,7 @@ const Post = ({ getOnePost, post: { post, loading } }) => {
   ) : (
     <section className='container'>
       <Alert />
-      <Link to='/posts' className='btn'>
+      <Link to='/posts' className='btn cute-btn btn-dark'>
         Back To Posts
       </Link>
       <PostItem post={post} showActions={false} />

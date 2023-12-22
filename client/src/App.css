@@ -6,6 +6,7 @@
   --danger-color: #dc3545;
   --success-color: #28a745;
   --dark-color-2: #0e0e0e;
+  --grey-dark: rgb(150, 147, 147);
 }
 
 * {
@@ -73,7 +74,7 @@ img {
 }
 
 .text-dark {
-  color: var(--dark-color);
+  color: var(--grey-dark);
 }
 
 /* Padding */
@@ -171,8 +172,8 @@ img {
 .bg-light,
 .badge-light,
 .alert-light {
-  background: var(--light-color);
-  color: var(--dark-color);
+  background: transparent;
+  color: var(--light-color);
 }
 
 .btn-dark,
@@ -203,9 +204,9 @@ img {
 .bg-white,
 .badge-white,
 .alert-white {
-  background: #fff;
-  color: #333;
-  border: #ccc solid 1px;
+  background: var(--dark-color-2);
+  color: var(--light-color);
+  /* border: var(--dark-color-2) solid 1px; */
 }
 
 .btn:hover {
