@@ -20,7 +20,7 @@ const Dashboard = ({
     console.log(user);
   }, [getCurrentProfile]);
 
-  return !loading && profile === null ? (
+  return loading && profile === null ? (
     <Spinner />
   ) : (
     <>
