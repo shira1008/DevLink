@@ -366,6 +366,11 @@ th {
   margin-right: 0.6rem;
 }
 
+.logo {
+  width: 100px;
+  height: 50px;
+  margin-top: 1rem;
+}
 /* Landing Page */
 .landing {
   position: relative;
