@@ -392,14 +392,23 @@ th {
 }
 
 /* Profiles Page */
+
+.profiles-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .profile {
   display: grid;
-  grid-template-columns: 2fr 4fr 2fr;
+  grid-template-columns: 6fr 4fr 2fr;
   align-items: center;
   grid-gap: 2rem;
   padding: 1rem;
   line-height: 1.8;
-  margin-bottom: 1rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 80%;
 }
 
 .bg-profile {
@@ -580,6 +589,7 @@ th {
   .profile {
     grid-template-columns: 1fr;
     text-align: center;
+    width: 100%;
   }
 
   .profile ul {

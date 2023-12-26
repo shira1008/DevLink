@@ -22,7 +22,6 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
             developers
           </p>
           <div className='profiles'>
-            {console.log(profiles)}
             {profiles.length > 0 ? (
               profiles.map((profile) => (
                 <ProfileItem key={profile._id} profile={profile} />

@@ -75,7 +75,7 @@ function App() {
             <Route
               path='/profiles'
               element={
-                <section className='container'>
+                <section className='container profiles-section'>
                   <Profiles />
                 </section>
               }
