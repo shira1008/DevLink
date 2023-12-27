@@ -11,8 +11,8 @@ const Landing = ({ isAuthenticated }) => {
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <h1 className='x-large'>Connect with Developers Worldwide</h1>
-          <p className='lead'>
+          <h1 className='x-large'>Connect with Developers</h1>
+          <p className='lead landing-p'>
             Build your developer profile, share your projects, and connect with
             other developers.
             {/* <br /> Whether you're looking for collaboration, mentorship, or just

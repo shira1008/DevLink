@@ -325,7 +325,7 @@ th {
 .table td {
   padding: 1rem;
   text-align: left;
-  width: 50px;
+  max-width: 50px;
 }
 
 .table th {
@@ -382,7 +382,7 @@ th {
 .landing-inner {
   color: #fff;
   height: 100%;
-  width: 80%;
+  max-width: 50rem;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -391,6 +391,9 @@ th {
   text-align: center;
 }
 
+.landing-p {
+  max-width: 500px;
+}
 /* Profiles Page */
 
 .profiles-section {
@@ -563,6 +566,10 @@ th {
 
   .lead {
     font-size: 1rem;
+  }
+
+  .landing-p {
+    max-width: 350px;
   }
 
   /* Navbar */
