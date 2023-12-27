@@ -24,16 +24,7 @@ app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/posts'));
 
-//Serve static assets in production
-if (process.env.NODE_ENV === 'production') {
-  //setting the static file to build
-  app.use(express.static('client/build'));
-  const indexPath = path.join(__dirname, 'client', 'build', 'index.html');
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(indexPath));
-  });
-}
-
+//start the server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
