@@ -91,3 +91,5 @@ DevLink is a full-stack social media application designed for developers to conn
    ```
    npm run dev
    ```
+
+[screen-vidoe2.webm](https://github.com/shira1008/DevLink/assets/109962964/b55e90a6-3fb4-4c90-98f3-e4d2980c4ae8)
