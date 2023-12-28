@@ -28,6 +28,13 @@ a {
   text-decoration: none;
 }
 
+h4,
+h2,
+h3,
+h1 {
+  text-transform: capitalize;
+}
+
 ul {
   list-style: none;
 }
@@ -52,12 +59,14 @@ img {
   font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 1rem;
+  text-transform: capitalize;
 }
 
 .large {
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 1rem;
+  text-transform: capitalize;
 }
 
 .lead {
@@ -326,6 +335,7 @@ th {
   padding: 1rem;
   text-align: left;
   max-width: 50px;
+  text-transform: capitalize;
 }
 
 .table th {
