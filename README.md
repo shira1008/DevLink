@@ -2,7 +2,7 @@
 
 ## Overview
 
-DevLink is a full-stack social media application designed for developers to connect, collaborate, and share experiences within the tech community.
+DevLink is a full-stack social media application designed for developers to connect, collaborate, and share experiences.
 
 ## Key Features
 
