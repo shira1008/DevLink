@@ -57,18 +57,18 @@ DevLink is a full-stack social media application designed for developers to conn
 ## Usage
 
 1. **Clone the Repository:**
-   ```
+    ```
    git clone https://github.com/your-username/devlink.git
 
-2. **install dependecies:**
-```
-cd devlink
-npm install
-cd client
-npm install
+3. **install dependecies:**
+   ```
+   cd devlink
+   npm install
+   cd client
+   npm install
 
-```
+   ```
 3. run the app
-```
-npm run dev
-```
+   ```
+   npm run dev
+   ```
