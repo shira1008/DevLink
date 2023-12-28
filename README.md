@@ -34,6 +34,25 @@ DevLink is a full-stack social media application designed for developers to conn
 
 8. **Concurrent Development:**
    - Utilizes `concurrently` and `nodemon` for concurrent development of the server and client.
+  
+## Developer Profile
+
+1. **Creating a Profile:**
+   - Visit the Dashboard section after logging in.
+   - If you don't have a profile, you'll see a prompt to create one.
+   - Click on the "Create Profile" button to get started.
+   - after you have a profile, other developers can find you in the Developers section
+
+2. **Adding Experience:**
+   - Once your profile is created, navigate to the Dashboard.
+   - You'll find a section for adding your work experience.
+   - Click on "Add Experience" to include your professional background.
+
+3. **Adding Education:**
+   - Similarly, you can add your educational information.
+   - Visit the Dashboard and find the section for adding education.
+   - Click on "Add Education" to showcase your academic achievements.
+     
 
 ## Technologies Used
 
