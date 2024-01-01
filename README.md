@@ -20,8 +20,8 @@ DevLink is a full-stack social media application designed for developers to conn
    - Users can comment on posts.
 
 4. **UI and State Management:**
-   - Built with React for a dynamic and responsive user interface.
-   - State management using Redux for a scalable and predictable state architecture.
+   - Built with React
+   - State management using Redux
 
 5. **Backend Technologies:**
    - Server-side logic built with Node.js and Express.
