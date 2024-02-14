@@ -84,13 +84,13 @@ DevLink is a full-stack social media application designed for developers to conn
   ![Screenshot 2024-02-14 143417](https://github.com/shira1008/DevLink/assets/109962964/b8fe398c-4218-465b-9640-d5da2ed523b6)
 
   - mobile:
-  - 
+    
    ![Screenshot 2024-02-14 144305](https://github.com/shira1008/DevLink/assets/109962964/412409c4-c612-46d2-aae7-c4fdd024fad4)
 
 ### Login:
 - big screen:
 ![Screenshot 2024-02-14 143451](https://github.com/shira1008/DevLink/assets/109962964/f73118ee-1c72-4aea-b7ed-0c9130bbbe93)
--mobile:
+- mobile:
 
 ![Screenshot 2024-02-14 144329](https://github.com/shira1008/DevLink/assets/109962964/354230b2-760b-4d14-9737-af7c921f15b9)
 
@@ -105,7 +105,7 @@ DevLink is a full-stack social media application designed for developers to conn
      
      ![Screenshot 2024-02-14 144044](https://github.com/shira1008/DevLink/assets/109962964/521d7497-bb7d-4064-bc97-a8a6689aba78)
 
-### comment to a post:
+### Comment to a post:
 - big screen:
   ![Screenshot 2024-02-14 143800](https://github.com/shira1008/DevLink/assets/109962964/33a27d6e-6a45-4c54-9e1c-968cd688017b)
 -mobile:
@@ -117,8 +117,9 @@ DevLink is a full-stack social media application designed for developers to conn
 ![Screenshot 2024-02-14 143837](https://github.com/shira1008/DevLink/assets/109962964/4239bcd3-72db-42f8-9d85-bbd27cbe140b)
 
 - mobile:
-- 
-![Screenshot 2024-02-14 144122](https://github.com/shira1008/DevLink/assets/109962964/a16f094a-912c-431f-a61e-4feca28df025)
+  
+![Screenshot 2024-02-14 144211](https://github.com/shira1008/DevLink/assets/109962964/68e470c1-b608-4447-bd6c-0ced31d65793)
+
 
 ### Developer Profile:
   
