@@ -108,7 +108,7 @@ DevLink is a full-stack social media application designed for developers to conn
 ### Comment to a post:
 - big screen:
   ![Screenshot 2024-02-14 143800](https://github.com/shira1008/DevLink/assets/109962964/33a27d6e-6a45-4c54-9e1c-968cd688017b)
--mobile:
+- mobile:
 
 ![Screenshot 2024-02-14 144122](https://github.com/shira1008/DevLink/assets/109962964/a9bbbbb3-a673-40c6-87df-624416805a66)
 
