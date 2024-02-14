@@ -76,46 +76,51 @@ DevLink is a full-stack social media application designed for developers to conn
   - Nodemon
 
 ## Screenshots
-- Home page:
+### Home page:
 ![Screenshot 2024-02-14 143132](https://github.com/shira1008/DevLink/assets/109962964/27f7d81d-78eb-4336-8461-71cd932d0ddd)
 
-- Register:
+### Register:
 - big screen:
   ![Screenshot 2024-02-14 143417](https://github.com/shira1008/DevLink/assets/109962964/b8fe398c-4218-465b-9640-d5da2ed523b6)
 
   - mobile:
+  - 
    ![Screenshot 2024-02-14 144305](https://github.com/shira1008/DevLink/assets/109962964/412409c4-c612-46d2-aae7-c4fdd024fad4)
 
-- Login:
+### Login:
 - big screen:
 ![Screenshot 2024-02-14 143451](https://github.com/shira1008/DevLink/assets/109962964/f73118ee-1c72-4aea-b7ed-0c9130bbbe93)
 -mobile:
+
 ![Screenshot 2024-02-14 144329](https://github.com/shira1008/DevLink/assets/109962964/354230b2-760b-4d14-9737-af7c921f15b9)
 
 
-- Dashboard:
+### Dashboard:
 ![Screenshot 2024-02-14 143601](https://github.com/shira1008/DevLink/assets/109962964/c825a068-81ee-46bf-a1bc-c61f359e2c9e)
 
-- Posts:
+### Posts:
   - big screen:
 ![Screenshot 2024-02-14 143647](https://github.com/shira1008/DevLink/assets/109962964/c7b3bda3-a95a-4eb0-bc16-e6d00e86fa4b)
    - Mobile:
+     
      ![Screenshot 2024-02-14 144044](https://github.com/shira1008/DevLink/assets/109962964/521d7497-bb7d-4064-bc97-a8a6689aba78)
 
-- a comment to a post:
+### comment to a post:
 - big screen:
   ![Screenshot 2024-02-14 143800](https://github.com/shira1008/DevLink/assets/109962964/33a27d6e-6a45-4c54-9e1c-968cd688017b)
 -mobile:
+
 ![Screenshot 2024-02-14 144122](https://github.com/shira1008/DevLink/assets/109962964/a9bbbbb3-a673-40c6-87df-624416805a66)
 
-- Developers
+### Developers
 - big screen:
 ![Screenshot 2024-02-14 143837](https://github.com/shira1008/DevLink/assets/109962964/4239bcd3-72db-42f8-9d85-bbd27cbe140b)
 
 - mobile:
+- 
 ![Screenshot 2024-02-14 144122](https://github.com/shira1008/DevLink/assets/109962964/a16f094a-912c-431f-a61e-4feca28df025)
 
-- Developer Profile:
+### Developer Profile:
   
 ![Screenshot 2024-02-14 143922](https://github.com/shira1008/DevLink/assets/109962964/95d78b36-6dd3-4d62-8521-f692097ffaf9)
 ![Screenshot 2024-02-14 143933](https://github.com/shira1008/DevLink/assets/109962964/47b82fd8-a49d-4bdd-8e2e-5d633f8cb585)
